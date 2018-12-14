@@ -1,0 +1,10 @@
+version: "3"
+services:
+  www:
+    build: .
+    ports:
+      - "8040:80"
+    volumes:
+      - ./src:/var/www/html/
+    networks:
+      - default
