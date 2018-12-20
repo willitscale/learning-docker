@@ -6,3 +6,4 @@
 * [Learning Docker 04 : Configuring containers with compose](https://www.youtube.com/watch?v=9KvLpezcjBY)
 * [Learning Docker 05 : Customising Docker Images with Builder](https://www.youtube.com/watch?v=FPbmqZMmpQM)
 * [Learning Docker 06 : Basic Docker bridge network](https://www.youtube.com/watch?v=y1OpxqTcuOM)
+* [Learning Docker 07 : Advanced Networking with PHP & MySQL](https://www.youtube.com/watch?v=SXY0MLHP3hA)
