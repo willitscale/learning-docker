@@ -7,3 +7,6 @@
 * [Learning Docker 05 : Customising Docker Images with Builder](https://www.youtube.com/watch?v=FPbmqZMmpQM)
 * [Learning Docker 06 : Basic Docker bridge network](https://www.youtube.com/watch?v=y1OpxqTcuOM)
 * [Learning Docker 07 : Advanced Networking with PHP & MySQL](https://www.youtube.com/watch?v=SXY0MLHP3hA)
+* [Learning Docker 08 : Getting started with Docker Swarms](https://www.youtube.com/watch?v=wR0I0xTh67s)
+
+
