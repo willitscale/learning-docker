@@ -9,4 +9,4 @@
 * [Learning Docker 07 : Advanced Networking with PHP & MySQL](https://www.youtube.com/watch?v=SXY0MLHP3hA)
 * [Learning Docker 08 : Getting started with Docker Swarms](https://www.youtube.com/watch?v=wR0I0xTh67s)
 * [Learning Docker 09 : Creating a docker repository on Docker hub](https://www.youtube.com/watch?v=EjvNWa_GTK0)
-
+* [Learning Docker 10 : Load balanced stacks using Docker Swarm](https://www.youtube.com/watch?v=pdBHsA2FG48)

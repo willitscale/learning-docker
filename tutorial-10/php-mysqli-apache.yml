@@ -1,0 +1,40 @@
+version: "3"
+
+networks:
+  tut10-frontend:
+    external: true
+  tut10-backend:
+    external: true
+
+services:
+  tut10-db:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - "3306:3306"
+    networks:
+      - tut10-backend
+    env_file:
+      - ./development.env
+  tut10-www:
+    # image: dockerjames85/php-mysqli-apache:1.0
+    image: dockerjames85/php-mysqli-apache:1.1
+    ports:
+      - "8080:80"
+    # volumes:
+    #   - ./src:/var/www/html/
+    networks:
+      - tut10-backend
+      - tut10-frontend
+    depends_on:
+      - tut10-db
+    env_file:
+      - ./development.env
+    deploy:
+      replicas: 5
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 100M
+      restart_policy:
+        condition: on-failure
