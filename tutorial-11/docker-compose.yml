@@ -1,0 +1,36 @@
+version: "3.0"
+
+networks:
+  tut11-web:
+    driver: bridge
+    ipam: 
+      driver: default
+      config:
+        - subnet: 172.12.1.0/24
+  tut11-data:
+    driver: bridge
+    ipam:
+      driver: default
+      config: 
+        - subnet: 172.12.2.0/23
+
+services:
+  tut11-java:
+    build: .
+    command: ./gradlew bootRun
+    ports:
+      - 8080:8080
+    networks:
+      tut11-web:
+        ipv4_address: 172.12.1.2
+      tut11-data:
+        ipv4_address: 172.12.2.2
+    env_file:
+      - ./development.env
+    depends_on:
+      - tut11-mongo
+  tut11-mongo:
+    image: mongo
+    networks: 
+      tut11-data:
+        ipv4_address: 172.12.3.2
