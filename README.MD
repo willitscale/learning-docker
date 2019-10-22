@@ -11,4 +11,4 @@
 * [Learning Docker 09 : Creating a docker repository on Docker hub](https://www.youtube.com/watch?v=EjvNWa_GTK0)
 * [Learning Docker 10 : Load balanced stacks using Docker Swarm](https://www.youtube.com/watch?v=pdBHsA2FG48)
 * [Learning Docker 11 : Retrofitting projects with Docker using Java and Mongo](https://www.youtube.com/watch?v=7JQ0NLZnSPU)
-* [Learning Docker 12 : Mongo cluster, deploying a ReplicaSet](https://www.youtube.com/watch?v=7JQ0NLZnSPU)
+* [Learning Docker 12 : Mongo cluster, deploying a ReplicaSet](https://www.youtube.com/watch?v=-XzMfd4XQak)
