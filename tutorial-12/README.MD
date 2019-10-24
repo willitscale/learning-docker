@@ -2,7 +2,7 @@
 
 Mongo cluster, deploying a ReplicaSet
 
-### To run the application:
+### To run the cluster:
 ```
 docker-compose up
 ```
